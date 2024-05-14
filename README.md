@@ -2,6 +2,9 @@
 
 React component search form that can be used with [Torrent-Api-py](https://github.com/Ryuk-me/Torrent-Api-py)
 
+![image](https://github.com/steventux/getflix-react/assets/93511/eb1debdf-b05d-4ead-a754-0cd35f5f1268)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
