@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Getflix (React frontend app)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React component search form that can be used with [Torrent-Api-py](https://github.com/Ryuk-me/Torrent-Api-py)
 
 ## Available Scripts
 
