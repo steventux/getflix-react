@@ -2,8 +2,20 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders Getflix title', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const getflixTitle = screen.getByText(/getflix/i);
+  expect(getflixTitle).toBeInTheDocument();
+});
+
+test('renders search form', () => {
+  render(<App />);
+  const searchField = screen.getByPlaceholderText(/the shining/i);
+  expect(searchField).toBeInTheDocument();
+
+  const searchButton = screen.getByRole('button', { name: /search/i });
+  expect(searchButton).toBeInTheDocument();
+
+  const delugeLink = screen.getByRole('link', { name: /deluge/i });
+  expect(delugeLink).toBeInTheDocument();
 });
